@@ -109,7 +109,7 @@ const App = () => {
           />
 
           <button onClick={fetchWeather}>
-            <img src="/src/Images/loupe.png" alt="Fetch Weather" className="w-6 sm:w-8 m-2" />
+            <img src="/src/Images/loupe.png" alt="Search" className="w-6 sm:w-8 m-2" />
           </button>
         </div>
 
