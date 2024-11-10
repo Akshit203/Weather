@@ -11,7 +11,7 @@ const App = () => {
   const [error, setError] = useState(null);
 
   const WeatherTypes = [
-    { type: "Clear", img: "./sun (2).png" },
+    { type: "Clear", img: "./contrast.png" },
     { type: "Rain", img: "./heavy-rain.png" },
     { type: "Snow", img: "./snowflake (1).png" },
     { type: "Clouds", img: "./clouds.png" },
