@@ -11,12 +11,12 @@ const App = () => {
   const [error, setError] = useState(null);
 
   const WeatherTypes = [
-    { type: "Clear", img: "src/Images/sun (2).png" },
-    { type: "Rain", img: "src/Images/heavy-rain.png" },
-    { type: "Snow", img: "/src/Images/snowflake (1).png" },
-    { type: "Clouds", img: "/src/Images/clouds.png" },
-    { type: "Haze", img: "/src/Images/clouds.png" },
-    { type: "Drizzle", img: "/src/Images/drizzle.png" },
+    { type: "Clear", img: "./sun (2).png" },
+    { type: "Rain", img: "./heavy-rain.png" },
+    { type: "Snow", img: "./snowflake (1).png" },
+    { type: "Clouds", img: "./clouds.png" },
+    { type: "Haze", img: "./clouds.png" },
+    { type: "Drizzle", img: "./drizzle.png" },
   ];
 
   const fetchWeather = async () => {
@@ -109,7 +109,7 @@ const App = () => {
           />
 
           <button onClick={fetchWeather}>
-            <img src="/src/Images/loupe.png" alt="Search" className="w-6 sm:w-8 m-2" />
+            <img src="./loupe.png" alt="Search" className="w-6 sm:w-8 m-2" />
           </button>
         </div>
 
